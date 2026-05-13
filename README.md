@@ -1,73 +1,46 @@
-# React + TypeScript + Vite
+# 🚀 DevX-Portfolio | Ankit Kumar Dubey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive, high-performance developer portfolio featuring a 3D interface, interactive terminal, and AI-driven navigation. Built with React 19, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+## ✨ Key Features
+- **Hyper-Realistic UI**: Built with a "Glassmorphism" design system using Tailwind CSS 4.0.
+- **3D Tech Orbit**: A dynamic, rotating visualization of the tech stack built with Framer Motion.
+- **Interactive Developer Console**: A fully functional in-browser Terminal allowing users to explore via CLI commands.
+- **Real-time AI Assistant**: A custom-built AI chatbot that answers questions about projects and skills.
+- **Immersive Experience**: Animated Cursor, Particle Backgrounds, and a specialized Sound System.
+- **High Performance**: Optimized with Vite for near-perfect Lighthouse scores.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend**: React 19, TypeScript, Vite
+- **Animations**: Framer Motion, GSAP
+- **Styling**: Tailwind CSS 4.0
+- **3D Depth**: Three.js / React Three Fiber
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ankitkrdubey/NEW-PORTFOLIO.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📦 Build for Production
+To create a production-ready bundle:
+```bash
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+© 2026 Crafted with ❤️ by Ankit Kumar Dubey
